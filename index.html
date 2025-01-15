@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Survival Game</title>
+        
+        <meta name="Title" content="Survival Game" />
+        <meta name="description" content="Survival Game is a HTML5 game where you have to complete 6 round of survival game including Red Light, Green Light, Dalgona Candy, Tug of War, Marble Game and Glass Bridge to win a final prize of 45.6 billion.">
+		<meta name="keywords" content="squid, survive, candy, bridge, 456, run, death, money, contest, doll, tug of war, marble">
+        
+        <!-- for Facebook -->
+        <meta property="og:title" content="Survival Game"/>
+        <meta property="og:site_name" content="Survival Game"/>
+        <meta property="og:image" content="http://demonisblack.com/code/2021/survivalgame/game/share.jpg" />
+        <meta property="og:url" content="http://demonisblack.com/code/2021/survivalgame/game/" />
+        <meta property="og:description" content="Survival Game is a HTML5 game where you have to complete 6 round of survival game including Red Light, Green Light, Dalgona Candy, Tug of War, Marble Game and Glass Bridge to win a final prize of 45.6 billion.">
+        
+        <!-- for Twitter -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Survival Game" />
+        <meta name="twitter:description" content="Survival Game is a HTML5 game where you have to complete 6 round of survival game including Red Light, Green Light, Dalgona Candy, Tug of War, Marble Game and Glass Bridge to win a final prize of 45.6 billion." />
+        <meta name="twitter:image" content="http://demonisblack.com/code/2021/survivalgame/game/share.jpg" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	
+
+        <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/ext.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!-- PERCENT LOADER START-->
+    	<div id="mainLoader"><img src="assets/loader.png" /><br/><span>0</span></div>
+        <!-- PERCENT LOADER END-->
+        
+        <!-- CONTENT START-->
+        <div id="mainHolder">
+        
+        	<!-- BROWSER NOT SUPPORT START-->
+        	<div id="notSupportHolder">
+                <div class="notSupport">YOUR BROWSER ISN'T SUPPORTED.<br/>PLEASE UPDATE YOUR BROWSER IN ORDER TO RUN THE GAME</div>
+            </div>
+            <!-- BROWSER NOT SUPPORT END-->
+            
+            <!-- CANVAS START-->
+            <div id="canvasHolder">
+                <canvas id="gameCanvas" width="1280" height="768"></canvas>
+            </div>
+            <!-- CANVAS END-->
+            
+        </div>
+        <div id="chatgpt-promo" style="position: fixed; bottom: 0; left: 0; width: 100%; padding: 0; margin: 0; background-color: #ffd700; display: flex; justify-content: center; align-items: center; box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);">
+            <a href="https://www.usechatgpt.ai/install?ref=originalsquidgameoffline" target="_blank" style="color: #000; font-size: 12px; text-decoration: none; padding: 1px; border-radius: 5px; background-color: transparent;">✨ UseChatGPT.AI - Free ChatGPT Copilot on Chrome (GPT-4 ✓). Use ChatGPT on any website without copy-pasting.</a>
+            <button id="chatgpt-remove" style="padding: 5px; font-size: 14px; background-color: #ddd; border: none; border-radius: 0 5px 5px 0; cursor: pointer;">X</button>
+          </div>
+          
+        <!-- CONTENT END-->
+        
+        <script src="js/jquery.min.js"></script>
+        
+        <script src="js/vendor/detectmobilebrowser.js"></script>
+        <script src="js/vendor/createjs.min.js"></script>
+		<script src="js/vendor/TweenMax.min.js"></script>
+		<script src="js/vendor/ndgmr.Collision.js"></script>
+        
+        <script src="js/plugins.js"></script>
+        <script src="js/sound.js"></script>
+        <script src="js/canvas.js"></script>
+        <script src="js/game.js"></script>
+        <script src="js/mobile.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/loader.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/ext.js"></script>
+
+		<div class="dropdown">
+		  <a class="dropbtn"><img src="/img/list.png"></a>
+		  <div class="dropdown-content">
+			<a target="blank" href="https://squid-game.pro/">Homepage</a>
+			<a target="blank" href="index.html">Full screen</a>
+			<a target="blank" href="https://squid-game.pro/">Share</a>
+			<a target="blank" href="https://chrome.google.com/webstore/detail/original-squid-game-offli/apmdbbjakfnangndikaijbehbhkcknna">Rate</a>
+			<a target="blank" href="https://www.w3technic.com/game">More game</a>
+		  </div>
+		</div>
+    </body>
+    
+
+</html>
